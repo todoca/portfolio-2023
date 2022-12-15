@@ -9,3 +9,11 @@ $netColor:  #512bd4;
 $bgcustomColor: rgba(22, 22, 22, 0);
 $darkColor: rgba(255, 255, 255, 0);
 $orangeColor: #f9ab00; 
+
+@layer components {
+    .heroButton {
+        @apply px-6 py-2 border border-[#242424] 
+        rounded-full uppercase text-xs tracking-widest
+        text-gray-500 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40 ;
+    }
+}
