@@ -12,7 +12,7 @@ export default function Home() {
     <div
       className="bg-[rgb(22,22,22)]
      text-white h-screen snap-y snap-mandatory 
-     overflow-y-scroll overflow-x-hidden z-0"
+     overflow-y-scroll z-0 scrollbar-track-gray-400/20 scrollbar scrollbar-thumb-[#f4dc1c]/80"
     >
       <Head>
         <title>Alejandro's Portfolio</title>

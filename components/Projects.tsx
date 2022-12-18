@@ -15,7 +15,7 @@ const Projects = (props: Props) => {
         initial={{ opacity: 0 }}
         transition={{ duration: 1.5 }}
         whileInView={{ opacity: 1 }}
-        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20"
+        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f4dc1c]"
       >
         {/* projects */}
         {projects.map((project, i) => (

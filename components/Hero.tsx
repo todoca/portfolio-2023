@@ -19,7 +19,7 @@ const Hero = (props: Props) => {
   });
   return (
     <div
-      className="h-screen flex flex-col space-y-8 
+      className="h-screen pt-32 flex flex-col space-y-6 
     items-center justify-center text-center overflow-hidden"
     >
       <BackgroundCircles />
@@ -31,14 +31,14 @@ const Hero = (props: Props) => {
       />
 
       <div className="z-20">
-        <h2 className="text-sm uppercase pb-2 tracking-[15px] text-gray-500">
+        <h2 className="text-lg uppercase pb-2 tracking-[15px] text-gray-500">
           Software Engineer
         </h2>
-        <h1 className="text-4xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-2xl lg:text-5xl font-semibold px-10">
           <span>{text}</span>
           <Cursor cursorColor="#f4dc1c" />
         </h1>
-        <div className="pt-5">
+        <div className="pt-6">
           <Link href="#about">
             <button className="heroButton">About</button>
           </Link>
