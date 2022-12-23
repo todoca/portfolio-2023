@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import About from "../components/About";
 import ContactMe from "../components/ContactMe";
 import Header from "../components/Header";
@@ -46,6 +47,19 @@ export default function Home() {
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
+      {/* Footer */}
+      <Link href="#hero">
+        <footer className="sticky bottom-2 w-full cursor-pointer">
+          <div className="flex items-end justify-end mr-10">
+            <img
+              className="h-10 w-10"
+              title="Go to Home"
+              src="https://alejandro-marcano.web.app/static/media/logo.a24d4fd3.svg"
+              alt=""
+            />
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 }
